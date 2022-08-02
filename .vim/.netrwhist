@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/etc/fonts'
+let g:netrw_dirhist_3='/root/workspace/bugfix/trident/trident-installer'
+let g:netrw_dirhist_2='/root/.config/dlv'
+let g:netrw_dirhist_1='/root/.cache/vi/vim-delve'
