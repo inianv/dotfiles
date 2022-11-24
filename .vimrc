@@ -23,6 +23,7 @@ let g:go_gopls_gofumpt=1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Disable fzf preview window
 let g:fzf_preview_window = []
+let g:fzf_layout = { 'down': '40%' }
 nnoremap <silent> <C-f> :GFiles<CR>
 
 function! RipgrepFzf(query, fullscreen)

@@ -91,10 +91,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-if type rg &> /dev/null; then
-    export FZF_DEFAULT_COMMAND='rg --files'
-    export FZF_DEFAULT_OPTS='-m --height 50% --border'
-fi
+#if type rg &> /dev/null; then
+#    export FZF_DEFAULT_COMMAND='rg --files'
+#    export FZF_DEFAULT_OPTS='-m --height 50% --border'
+#fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -110,3 +110,4 @@ export GOPATH=$HOME/go
 export PATH=$HOME/.local/bin:$PATH:$GOPATH/bin
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export RIPGREP_CONFIG_PATH="$HOME"/.ripgreprc
