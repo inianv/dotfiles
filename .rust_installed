@@ -1,0 +1,8 @@
+bat -> /usr/bin/batcat
+cmctl
+delta
+fd -> /usr/bin/fdfind
+gocover
+grex
+poetry -> /root/.local/share/pypoetry/venv/bin/poetry
+sd
