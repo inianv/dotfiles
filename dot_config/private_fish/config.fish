@@ -8,16 +8,18 @@ set -qg __fish_added_user_paths
 or set -g __fish_added_user_paths
 
 set -gx GOPATH $HOME/go
-set -x PATH $HOME/.local/bin $GOPATH/bin /opt/homebrew/bin $PATH
+set -x PATH $HOME/.local/bin $GOPATH/bin /opt/homebrew/bin $PATH $HOME/.cargo/bin
 set -gx VISUAL vim
 set -gx EDITOR "$VISUAL"
 set -gx RIPGREP_CONFIG_PATH "$HOME"/.ripgreprc
-set -gx GOPRIVATE "github.com/iceye-ltd"
-set -gx BARTIB_FILE "/Users/ivasanth/Documents/activities.bartib"
+set -gx ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX "YES"
+set -gx BARTIB_FILE "/Users/inianvasanth/.config/bartib/activities.bartib"
+set -gx _ZO_DATA_DIR "/Users/inianvasanth/.config/z/"
 
-alias ls=exa
+alias ls=eza
 alias kubectl=kubecolor
 alias k=kubectl
+#alias docker=podman
 
 #
 # Create the default command_not_found handler
@@ -268,7 +270,5 @@ if test -f ~/.iterm2_shell_integration.fish
     source ~/.iterm2_shell_integration.fish
 end 
 
-#if test -f ~/.tilde-switch
-#    source ~/.tilde-switch &> /dev/null
-#end
+zoxide init fish | source
 
