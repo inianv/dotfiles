@@ -1,14 +1,17 @@
-font-family = Fira Code
-font-style = Regular
-font-size = 15.0
-font-thicken = 
+command = /opt/homebrew/bin/fish --login --interactive
 
-theme = Tomorrow Night Gogh
+font-family = Monaspace Neon
+font-style = Regular
+font-size = 16
+font-thicken =
+font-feature = -calt
+
 adjust-cell-width = -9%
 
 background-opacity = 1
 window-colorspace = display-p3
 mouse-hide-while-typing = true
+fullscreen = true
 
 copy-on-select = clipboard
 
@@ -17,3 +20,28 @@ window-save-state = always
 
 macos-icon = custom-style
 macos-icon-frame = beige
+
+# Tomorrow Night Gogh Theme
+
+palette = 0=#282A2E
+palette = 1=#cc6666
+palette = 2=#b5bd68
+palette = 3=#f0c674
+palette = 4=#81a2be
+palette = 5=#b294bb
+palette = 6=#8abeb7
+palette = 7=#C5C8C6
+palette = 8=#969896
+palette = 9=#cc6666
+palette = 10=#b5bd68
+palette = 11=#f0c674
+palette = 12=#81a2be
+palette = 13=#b294bb
+palette = 14=#8abeb7
+palette = 15=#ffffff
+background = #1d1f21
+foreground = #c5c8c6
+cursor-color = #c5c8c6
+selection-background = #373b41
+selection-foreground = #c5c8c6
+
