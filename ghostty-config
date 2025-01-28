@@ -2,7 +2,7 @@ command = /opt/homebrew/bin/fish --login --interactive
 
 font-family = Monaspace Neon
 font-style = Regular
-font-size = 16
+font-size = 15
 font-thicken =
 font-feature = -calt
 
