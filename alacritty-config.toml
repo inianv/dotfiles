@@ -2,14 +2,11 @@
 live_config_reload = true
 
 [font]
-size = 15
-normal = { family = "Fira Code", style = "Regular" }
+size = 16
+normal = { family = "Monaspace Neon", style = "Regular" }
 bold = { family = "Fira Code", style = "Bold" }
-italic = { family = "Menlo", style = "Italic" }
+italic = { family = "JuliaMono", style = "Italic" }
 offset = { x = -1, y = 0 }
-
-# For font smoothening on macOS
-# defaults write org.alacritty AppleFontSmoothing -int 0
 
 [window]
 startup_mode = "Maximized"
@@ -30,6 +27,9 @@ shell = { program = "/opt/homebrew/bin/fish", args = ["-l"] }
 
 [selection]
 save_to_clipboard = true
+
+[cursor]
+style = { shape = "Beam" }
 
 # ----------------------------
 # Colors (Tomorrow Night Gogh)
